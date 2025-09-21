@@ -1,0 +1,20 @@
+# Web & API
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+requests==2.31.0
+typing_extensions==4.12.2
+
+# DB (SQLite default)
+SQLAlchemy==2.0.39
+python-dotenv==1.0.1
+pydantic==2.8.2
+pydantic-settings==2.5.2
+
+# OCR / file parsing
+Pillow==10.4.0
+pytesseract==0.3.10
+pdfminer.six==20221105
+pdf2image==1.17.0        # requires Poppler installed if you OCR scanned PDFs
+python-docx==1.1.0
+docx2txt==0.8
